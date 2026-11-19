@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Estud-IA Nube: qué hacemos en cada encuentro</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet"><style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--o:#F97316;--m:#C2338F;--g:#84BD00}
+body{max-width:1080px;margin:0 auto;font-family:Inter,sans-serif;background:#fff;color:#1d1d1f}
+.hd{background:#000;padding:48px 28px 36px;color:#fff}
+.hd .tag{font:700 clamp(14px,3.6vw,20px) Poppins;letter-spacing:3px;color:var(--o)}
+.hd h1{font:700 clamp(30px,7vw,56px)/1.1 Poppins;margin:12px 0 14px}
+.hd h1 span{color:var(--o)}
+.hd p{font-size:clamp(17px,3.8vw,24px);line-height:1.4;color:#ddd}
+.bar{height:12px;background:linear-gradient(90deg,var(--o) 0 60%,var(--m) 60% 80%,var(--g) 80%)}
+.sec{padding:30px 28px 0}
+h2{font:700 clamp(22px,5vw,32px) Poppins;color:var(--m);margin-bottom:6px}
+.sub{font-size:clamp(15px,3.5vw,20px);color:#666;margin-bottom:16px;line-height:1.35}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:clamp(14px,3.3vw,19px)}
+.flow span{background:#fff3e8;border:2px solid var(--o);border-radius:999px;padding:6px 14px;font-weight:600}
+.flow i{color:#999;font-style:normal}
+.ph{margin:30px 0 12px;display:flex;align-items:center;gap:12px;font:700 clamp(18px,4.4vw,26px) Poppins}
+.ph em{font:600 clamp(13px,3vw,17px) Inter;font-style:normal;color:#666}
+.ph::before{content:"";width:14px;height:34px;border-radius:6px;background:var(--c)}
+.enc{border:2px solid #eee;border-left:8px solid var(--c);border-radius:16px;padding:16px 18px;margin-bottom:14px}
+.enc h3{display:flex;gap:12px;align-items:center;font:700 clamp(17px,4.2vw,23px)/1.2 Poppins;margin-bottom:10px}
+.enc h3 b{flex:none;width:42px;height:42px;border-radius:50%;background:var(--c);color:#fff;text-align:center;line-height:42px;font-size:21px}
+.row{font-size:clamp(15px,3.6vw,19px);line-height:1.4;margin-top:6px}
+.row u{text-decoration:none;font:700 12px/1 Poppins;letter-spacing:1.5px;color:var(--c);display:block;margin-bottom:2px}
+.o{--c:var(--o)}.m{--c:var(--m)}.g{--c:#6f9e00}
+.note{margin:24px 28px 0;background:#000;color:#fff;border-radius:18px;padding:22px 24px;font-size:clamp(16px,3.8vw,21px);line-height:1.45}
+.note b{color:var(--g)}.note em{color:var(--o);font-style:normal;font-weight:700}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:8px;margin-top:6px}
+.strip div{background:#faf5f9;border-radius:12px;padding:10px;font-size:clamp(13px,3.2vw,16px);line-height:1.3;text-align:center}
+.strip b{display:block;color:var(--m);font:700 14px Poppins}
+.ft{margin-top:30px;background:#000;color:#fff;text-align:center;padding:26px 24px;font:600 clamp(18px,4.6vw,28px)/1.3 Poppins}
+.ft span{color:var(--o)}
+.lk{margin-top:14px;display:flex;flex-wrap:wrap;gap:8px}.lk a{font:600 clamp(14px,3.3vw,16px) Poppins;color:#fff;background:var(--c);padding:9px 16px;border-radius:999px;text-decoration:none}.lk a.alt{background:#fff;color:var(--c);border:2px solid var(--c)}.lk a:hover{opacity:.85}
+</style></head><body>
+<div class="hd"><div class="tag">ESTUD-IA 2026 · NUBE · INTERMEDIO</div>
+<h1>Un proyecto tuyo, <span>10 encuentros</span>, una sola pregunta.</h1>
+<p>¿Cómo logro que un servicio se pueda repetir, cambiar, recuperar y vigilar, y cómo lo demuestro? Cada sesión es un paso para responderla con tu propio caso.</p></div>
+<div class="bar"></div>
+
+<div class="sec"><h2>El hilo de todo el curso</h2><div class="sub">No son temas sueltos: cada encuentro agrega una pieza a la misma cadena.</div>
+<div class="flow"><span>Problema</span><i>→</i><span>Alcance</span><i>→</i><span>Contenedor</span><i>→</i><span>CI</span><i>→</i><span>IaC</span><i>→</i><span>Actualizar y revertir</span><i>→</i><span>Red y acceso</span><i>→</i><span>Telemetría</span><i>→</i><span>Auditoría</span><i>→</i><span>Defensa</span></div></div>
+
+<div class="sec">
+<div class="ph" style="--c:var(--o)">Entender el problema <em>Encuentros 1 y 2</em></div>
+<div class="enc o"><h3><b>1</b>Comunidad, pacto y desafíos de operación</h3>
+<div class="row"><u>OBJETIVO</u>Encontrar un problema de operación real que valga la pena automatizar.</div>
+<div class="row"><u>QUÉ HACES</u>Eliges una oportunidad propia (quién se afecta y qué falla) y acuerdas cómo trabajarán y pedirán ayuda.</div>
+<div class="row"><u>SALES CON</u>Una necesidad que puedes explicar y una pregunta sobre cómo comprobarías que se resuelve.</div>
+<div class="lk"><a class="" href="diapositivas/E01-comunidad-pacto-operacion.html">Diapositivas</a><a class="alt" href="https://github.com/santiagohenao97/reservas-canchas/blob/main/EJERCICIOS.md" target="_blank" rel="noopener">Ejercicios</a></div></div>
+<div class="enc o"><h3><b>2</b>Alcance, arquitectura y pruebas de aceptación</h3>
+<div class="row"><u>OBJETIVO</u>Acordar un recorrido pequeño y saber cómo reconocerás que funciona o falla.</div>
+<div class="row"><u>QUÉ HACES</u>Defines qué entra y qué no, dibujas componentes y entornos de desarrollo y pruebas.</div>
+<div class="row"><u>SALES CON</u>Un brief, una arquitectura inicial y dos pruebas de aceptación.</div>
+<div class="lk"><a class="" href="diapositivas/E02-alcance-pruebas.html">Diapositivas</a><a class="alt" href="https://github.com/santiagohenao97/reservas-canchas/blob/main/EJERCICIOS.md" target="_blank" rel="noopener">Ejercicios</a></div></div>
+
+<div class="ph" style="--c:var(--m)">Construir la cadena <em>Encuentros 3 a 6</em></div>
+<div class="enc m"><h3><b>3</b>Contenedor, configuración y entorno reproducible</h3>
+<div class="row"><u>OBJETIVO</u>Lograr una primera ejecución que otra persona pueda repetir.</div>
+<div class="row"><u>QUÉ HACES</u>Construyes y ejecutas una imagen, separas configuración y datos persistentes, y un compañero sigue tus instrucciones.</div>
+<div class="row"><u>SALES CON</u>Imagen y ejecución identificables, y evidencia de que otra persona arrancó tu servicio.</div>
+<div class="lk"><a class="" href="diapositivas/E03-contenedor-configuracion.html">Diapositivas</a><a class="alt" href="https://github.com/santiagohenao97/reservas-canchas/tree/ejercicio-3-contenedor" target="_blank" rel="noopener">Ejercicio</a></div></div>
+<div class="enc m"><h3><b>4</b>Integración continua y validación de cambios</h3>
+<div class="row"><u>OBJETIVO</u>Automatizar una comprobación e interpretar un fallo.</div>
+<div class="row"><u>QUÉ HACES</u>Armas un workflow que valida un cambio, provocas un fallo y lees el log.</div>
+<div class="row"><u>SALES CON</u>Un caso correcto y uno fallido, y claro qué deja avanzar una versión y qué aún no está automatizado.</div></div>
+<div class="enc m"><h3><b>5</b>Infraestructura declarativa y manejo de entornos</h3>
+<div class="row"><u>OBJETIVO</u>Describir un componente con código y entender estado y plan.</div>
+<div class="row"><u>QUÉ HACES</u>Escribes una configuración con entradas y salidas, la validas y lees un plan (crear, modificar o reemplazar).</div>
+<div class="row"><u>SALES CON</u>Un componente declarativo y un plan interpretado, con el alcance real declarado.</div></div>
+<div class="enc m"><h3><b>6</b>Actualización, salud y reversión</h3>
+<div class="row"><u>OBJETIVO</u>Comprobar una nueva versión y poder volver atrás.</div>
+<div class="row"><u>QUÉ HACES</u>Publicas una versión con falla controlada, lees la comprobación de salud y revierte.</div>
+<div class="row"><u>SALES CON</u>Versiones identificables y evidencia de cambio y reversión.</div></div>
+
+<div class="ph" style="--c:#6f9e00">Operar con criterio <em>Encuentros 7 y 8</em></div>
+<div class="enc g"><h3><b>7</b>Conectividad, acceso y exposición del servicio</h3>
+<div class="row"><u>OBJETIVO</u>Entender el recorrido de las peticiones y reducir lo que queda expuesto sin necesidad.</div>
+<div class="row"><u>QUÉ HACES</u>Dibujas flujos, priorizas dos riesgos con una medida cada uno y pruebas una comunicación permitida y una denegada.</div>
+<div class="row"><u>SALES CON</u>Topología con fronteras de acceso y controles con alcance real.</div></div>
+<div class="enc g"><h3><b>8</b>Telemetría, alertas y respuesta a incidentes</h3>
+<div class="row"><u>OBJETIVO</u>Usar logs, métricas y trazas para diagnosticar una falla.</div>
+<div class="row"><u>QUÉ HACES</u>Defines una señal útil, provocas una falla controlada y un compañero sigue tu runbook.</div>
+<div class="row"><u>SALES CON</u>Una señal ligada a tu servicio, un runbook probado y los límites de lo que observas.</div></div>
+
+<div class="ph" style="--c:var(--o)">Demostrar <em>Encuentros 9 y 10</em></div>
+<div class="enc o"><h3><b>9</b>Auditoría, reproducibilidad y portafolio</h3>
+<div class="row"><u>OBJETIVO</u>Consolidar una versión que otra persona pueda ejecutar y entender.</div>
+<div class="row"><u>QUÉ HACES</u>Revisas todo desde una entrada limpia, mejoras el README y corriges lo más crítico antes de agregar nada nuevo.</div>
+<div class="row"><u>SALES CON</u>Versión candidata, README utilizable y una defensa ensayada.</div></div>
+<div class="enc o"><h3><b>10</b>Demostración, defensa y proyección operativa</h3>
+<div class="row"><u>OBJETIVO</u>Mostrar lo que puedes reproducir y justificar en tu servicio.</div>
+<div class="row"><u>QUÉ HACES</u>Defiendes en pocos minutos: necesidad, ejecución, cambio y comprobación, con sus límites; revisas a un par.</div>
+<div class="row"><u>SALES CON</u>Tu explicación individual y una mejora priorizada para seguir.</div></div>
+</div>
+
+<div class="note">
+<p>Las evidencias sirven <em>para conversar y mejorar</em>, no son una entrega administrativa por sesión. Y la IA puede ayudarte, siempre que puedas <em>explicar y comprobar</em> lo que sugiere.</p></div>
+
+<div class="ft">No es el mismo proyecto para todos.<br><span>Es el mismo camino, con tu caso.</span></div>
+</body></html>
