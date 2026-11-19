@@ -11,7 +11,7 @@ Un proyecto tuyo, 10 encuentros, una sola pregunta: ¿cómo logro que un servici
 | # | Encuentro | Diapositivas | Ejercicios |
 |---|---|---|---|
 | 1 | Comunidad, pacto y desafíos de operación | [Ver](https://santiagohenao97.github.io/estudia-nube/diapositivas/E01-comunidad-pacto-operacion.html) | [reservas-canchas · EJERCICIOS.md](https://github.com/santiagohenao97/reservas-canchas/blob/main/EJERCICIOS.md) |
-| 2 | Alcance, arquitectura y pruebas de aceptación | [Ver](https://santiagohenao97.github.io/estudia-nube/diapositivas/E02-alcance-pruebas.html) | [reservas-canchas · EJERCICIOS.md](https://github.com/santiagohenao97/reservas-canchas/blob/main/EJERCICIOS.md) |
+| 2 | Alcance, arquitectura y pruebas de aceptación | [Ver](https://santiagohenao97.github.io/estudia-nube/diapositivas/E02-alcance-pruebas.html) | [README v0.1 → v0.2](ejercicios/E02/) |
 | 3 | Contenedor, configuración y entorno reproducible | [Ver](https://santiagohenao97.github.io/estudia-nube/diapositivas/E03-contenedor-configuracion.html) | [reservas-canchas · rama `ejercicio-3-contenedor`](https://github.com/santiagohenao97/reservas-canchas/tree/ejercicio-3-contenedor) |
 | 4 | Integración continua y validación de cambios | Próximamente | |
 | 5 | Infraestructura declarativa y manejo de entornos | Próximamente | |
